@@ -1,0 +1,21 @@
+<%@page import="javax.websocket.Session"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		//세션을 받고 세션의 있는 정보를 출력
+		session =request.getSession();
+		out.print("memberID : "+ session.getAttribute("memberID")+"</br>");
+	%>
+	
+	<form action="logoutCon" method="post">
+		<input type="submit" value="logout">
+	</form>
+</body>
+</html>
