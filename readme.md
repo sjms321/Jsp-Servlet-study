@@ -15,3 +15,9 @@
   DAO에 대해 공부 DAO의 역할, DTO의 역할을 공부함 분리시키는 이유를 각주에 달아놓음
 
   [각역할](https://velog.io/@emawlrdl/DAO%EC%99%80-DTO)
+  
+- 2020-01-22
+
+  connection pool: DAO DTO등을 사용하기 위해 dB와 통신하는 자원을 효율적으로 관리하기 위해 사용하는 방법
+
+  ![image](https://user-images.githubusercontent.com/67422547/105442855-e40bac80-5cad-11eb-91df-277acb76aae2.png)
