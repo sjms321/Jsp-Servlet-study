@@ -37,6 +37,7 @@ public class Hellosevlet extends HttpServlet {
 		out.print("</head>");
 		out.print("<body>");
 		out.print("<p> Hello sevlet!! </p>");
+		out.print("<p> Hello sevlet!! </p>");
 		out.print("</body>");
 		out.print("</html>");
 	}
